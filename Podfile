@@ -3,5 +3,5 @@ platform :ios, '12.0'
 use_frameworks!
 
 target 'QRcodeScanner' do
-  pod 'SwiftQRCode', '~> 3.0'
+  pod 'SwiftQRScanner', :git => ‘https://github.com/vinodiOS/SwiftQRScanner’
 end
